@@ -15,8 +15,11 @@ require_once 'conn.php';
                             $username = $_SESSION["username"];
                             echo '<span class="w-50 btn btn-lg btn-secondary">' . $username . '</span>';
                         }
-
                         ?>
+                        <a href = "logout.php"> logout </a>
+
+
+
 
                         </div> <!-- /.top-header-left -->
                     </div> <!-- /.col-md-6 -->
